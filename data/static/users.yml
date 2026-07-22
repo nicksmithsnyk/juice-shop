@@ -281,3 +281,154 @@
   securityQuestion:
     id: 14
     answer: 'English Riviera'
+# ============================================================================
+# WORKSHOP ADDITIONS — Snyk x RMIT Cyber Day (FICTIONAL student accounts)
+# Emails + passwords intentionally match ftp/rmit_student_records_CONFIDENTIAL.csv
+# so the demo can chain: SQLi leaks hashes -> /ftp leaks plaintext -> creds work.
+# customDomain:true keeps the literal @student.rmit.edu.au email as the login.
+# ============================================================================
+-
+  email: s3901142@student.rmit.edu.au
+  password: 'Summer2024!'
+  customDomain: true
+  key: rmit_s3901142
+  role: 'customer'
+  address:
+    - fullName: 'Aisha Rahman'
+      mobileNum: 412883201
+      zipCode: '3053'
+      streetAddress: '12 Cardigan St'
+      city: 'Carlton'
+      state: 'VIC'
+      country: 'Australia'
+  card:
+    - fullName: 'Aisha Rahman'
+      cardNum: 4716190207394368
+      expMonth: 6
+      expYear: 2085
+-
+  email: s3877431@student.rmit.edu.au
+  password: 'footy4life'
+  customDomain: true
+  key: rmit_s3877431
+  role: 'customer'
+  address:
+    - fullName: "Liam O'Connor"
+      mobileNum: 421556900
+      zipCode: '3065'
+      streetAddress: '88 Victoria St'
+      city: 'Fitzroy'
+      state: 'VIC'
+      country: 'Australia'
+-
+  email: s3912066@student.rmit.edu.au
+  password: 'p@ssw0rd'
+  customDomain: true
+  key: rmit_s3912066
+  role: 'customer'
+  address:
+    - fullName: 'Mei Ling Tan'
+      mobileNum: 403771245
+      zipCode: '3000'
+      streetAddress: '5/40 Swanston St'
+      city: 'Melbourne'
+      state: 'VIC'
+      country: 'Australia'
+-
+  email: s3844219@student.rmit.edu.au
+  password: 'Dragon!2023'
+  customDomain: true
+  key: rmit_s3844219
+  role: 'admin'
+  address:
+    - fullName: 'Jackson Nguyen'
+      mobileNum: 431220984
+      zipCode: '3057'
+      streetAddress: '210 Lygon St'
+      city: 'Brunswick East'
+      state: 'VIC'
+      country: 'Australia'
+-
+  email: s3899710@student.rmit.edu.au
+  password: 'hello123'
+  customDomain: true
+  key: rmit_s3899710
+  role: 'customer'
+  address:
+    - fullName: 'Priya Chandra'
+      mobileNum: 455019332
+      zipCode: '3053'
+      streetAddress: '33 Grattan St'
+      city: 'Carlton'
+      state: 'VIC'
+      country: 'Australia'
+-
+  email: s3934771@student.rmit.edu.au
+  password: 'qwerty123'
+  customDomain: true
+  key: rmit_s3934771
+  role: 'deluxe'
+  address:
+    - fullName: 'Daniel Kim'
+      mobileNum: 421774663
+      zipCode: '3058'
+      streetAddress: '142 Sydney Rd'
+      city: 'Coburg'
+      state: 'VIC'
+      country: 'Australia'
+-
+  email: s3888904@student.rmit.edu.au
+  password: 'Piano!99'
+  customDomain: true
+  key: rmit_s3888904
+  role: 'customer'
+  address:
+    - fullName: 'Grace Thompson'
+      mobileNum: 455771090
+      zipCode: '3053'
+      streetAddress: '3 Faraday St'
+      city: 'Carlton'
+      state: 'VIC'
+      country: 'Australia'
+-
+  email: s3927744@student.rmit.edu.au
+  password: 'Olivia!19'
+  customDomain: true
+  key: rmit_s3927744
+  role: 'customer'
+  address:
+    - fullName: 'Olivia Zhang'
+      mobileNum: 433220118
+      zipCode: '3054'
+      streetAddress: '18 Canning St'
+      city: 'Carlton North'
+      state: 'VIC'
+      country: 'Australia'
+-
+  email: s3855671@student.rmit.edu.au
+  password: 'Sk8erBoi!'
+  customDomain: true
+  key: rmit_s3855671
+  role: 'customer'
+  address:
+    - fullName: 'Ethan Brown'
+      mobileNum: 421663118
+      zipCode: '3054'
+      streetAddress: '105 Pigdon St'
+      city: 'Carlton North'
+      state: 'VIC'
+      country: 'Australia'
+-
+  email: s3800012@student.rmit.edu.au
+  password: 'password1'
+  customDomain: true
+  key: rmit_s3800012
+  role: 'customer'
+  address:
+    - fullName: 'Marcus Lee'
+      mobileNum: 455663220
+      zipCode: '3054'
+      streetAddress: '250 Rathdowne St'
+      city: 'Carlton North'
+      state: 'VIC'
+      country: 'Australia'

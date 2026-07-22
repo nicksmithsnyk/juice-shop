@@ -1,0 +1,22 @@
+# ============================================================================
+# OPTIONAL workshop config for Snyk x RMIT Cyber Day.
+# Enable it by starting Juice Shop with:   NODE_ENV=cyberday npm start
+# It only OVERRIDES a few cosmetic keys; everything else comes from default.yml.
+# (Leaving it out / running plain `npm start` uses the stock Juice Shop look.)
+# NOTE: 'theme' must be one of the 9 built-in palettes or the app won't boot.
+# ============================================================================
+server:
+  port: 3001
+  baseUrl: 'http://localhost:3001'
+application:
+  theme: deeppurple-amber
+  showVersionNumber: true
+  welcomeBanner:
+    showOnFirstStart: true
+    title: 'Welcome to the RMIT Cyber Day Lab 🛡️'
+    message: "<p>This is <strong>OWASP Juice Shop</strong> — a deliberately insecure web app used worldwide to learn application security. Today it's your practice target.</p><p><strong>Everything here is fake and runs only on this laptop.</strong> Hack responsibly — the same techniques against systems you don't own are illegal. Learn to break it so you can build it securely. Powered by <strong>Snyk</strong>.</p>"
+  cookieConsent:
+    message: 'This lab uses cookies. In the real world, check what you consent to!'
+    dismissText: 'Got it'
+    linkText: 'Learn more'
+    linkUrl: 'https://learn.snyk.io'

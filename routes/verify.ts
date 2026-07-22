@@ -219,7 +219,7 @@ function changeProductChallenge (osaft: Product) {
         }
       }
     }
-  })
+  }).catch(() => { /* [Snyk × RMIT Cyber Day] ignore reload failures so SQLi attacks can't crash the workshop target */ })
 }
 
 function feedbackChallenge () {
