@@ -64,7 +64,7 @@
     "solidity-browser-compiler": "^1.1.0",
     "tslib": "^2.5.0",
     "typescript": "~5.9.3",
-    "zone.js": "~0.15.0"
+    "zone.js": "~0.16.2"
   },
   "devDependencies": {
     "@angular/language-service": "^21.2.1",
